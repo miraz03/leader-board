@@ -142,11 +142,12 @@ hr{
         margin-right: 20px;
     
     }
-    .players, .blogs, .courses{
+    .players, .blogs{
         grid-template-columns: repeat(2, 1fr);
-       
-        
-    
+         
+    }
+    .courses{
+        grid-template-columns: repeat(1, 1fr);
     }
     .player, .blog, .course{
         flex-direction: column;
